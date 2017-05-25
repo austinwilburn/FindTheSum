@@ -1,5 +1,5 @@
 /*
-* [FindTheSums].java
+* [FindTheSum].java
 * Author: [Austin Wilburn]
 * Submission Date: [12/7/2014]
 *
@@ -25,7 +25,7 @@
 * prohibited unless you have written consent from the Department
 * of Computer Science at the University of Georgia.
 */
-public class FindTheSums {
+public class FindThesum {
 	//method to return a string from the array entered
 	public static String arrayToString(int[][] a){
 		//declare the string and initialize
