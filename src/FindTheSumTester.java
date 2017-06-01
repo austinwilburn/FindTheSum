@@ -2,9 +2,6 @@
  * The purpose of this class is to
  * test the required methods 
  * in the FindThesum class.
- *
- * author Sal LaMarca
- * CSCI 1301
  */
 public class FindTheSumTester {
 
@@ -33,7 +30,7 @@ public class FindTheSumTester {
 	 * Test the required methods in FindTheSum
 	 * parameter args not used
 	 */
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		
 		arrayToStringTest();
 		horizontalSumsTest();
@@ -46,23 +43,18 @@ public class FindTheSumTester {
 	private static void arrayToStringTest() {
 		String methodCallResult, correctAnswer;
 		System.out.println("Testing arrayToString method:");
-		
 		methodCallResult = FindTheSum.arrayToString(array1);
 		correctAnswer = "3 2 1 1\n2 5 6 2\n1 2 9 8";
-		if(methodCallResult.equals(correctAnswer)){
+		if(methodCallResult.equals(correctAnswer)) 
 			System.out.println("arrayToString(array1) test passed");
-		}
-		else{
+		else
 			System.out.println("arrayToString(array1) test failed");
-		}
 		methodCallResult = FindTheSum.arrayToString(array2);
 		correctAnswer = "7 3 8 5 6 7 4 1 9 5\n8 1 6 1 8 4 6 9 9 6\n9 2 4 8 6 1 1 3 6 2\n3 6 8 3 1 9 2 7 9 6\n5 7 7 6 3 5 6 4 2 1\n6 4 5 5 7 6 8 1 9 7\n8 4 5 4 3 7 1 2 1 8\n6 8 6 7 8 6 2 4 6 2\n7 8 6 8 3 8 2 2 8 5\n8 7 7 6 6 2 9 9 5 8";
-		if(methodCallResult.equals(correctAnswer)){
+		if(methodCallResult.equals(correctAnswer))
 			System.out.println("arrayToString(array2) test passed");
-		}
-		else{
+		else
 			System.out.println("arrayToString(array2) test failed");
-		}
 		System.out.println();
 	}
 
